@@ -1,0 +1,23 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="w1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#235347"/>
+      <stop offset="1" stop-color="#0B2B26"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#163832"/>
+      <stop offset="1" stop-color="#051F20"/>
+    </linearGradient>
+    <style>
+      text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .sway { animation: sway 8s ease-in-out infinite; }
+      @keyframes sway { 0%,100% { transform: translateX(0); } 50% { transform: translateX(-30px); } }
+    </style>
+  </defs>
+  <g class="sway">
+    <path d="M-60,52 C150,10 350,96 600,54 C850,12 1050,92 1260,48 L1260,150 L-60,150 Z" fill="url(#w1)" opacity="0.85"/>
+  </g>
+  <path d="M0,78 C220,38 420,112 640,76 C860,40 1040,104 1200,70 L1200,150 L0,150 Z" fill="url(#w2)"/>
+  <text x="600" y="112" text-anchor="middle" font-size="20" font-weight="500" fill="#DAF1DE" letter-spacing="1">Thanks for stopping by</text>
+  <text x="600" y="136" text-anchor="middle" font-size="13" fill="#8EB69B" letter-spacing="2">MOHAMMED HANY  ·  CS  ·  AI</text>
+</svg>
